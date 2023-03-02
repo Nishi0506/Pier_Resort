@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css
+    "
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/v4-font-face.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  </head>
+  <body>
+    <!--header section-->
+    <div class="img-box">
+      <img src="images/piersouthresort-home-hero.jpg" />
+    </div>
+    <header>
+      <div>
+        <ul class="navb d-flex">
+          <li class="item mx-3">
+            <a><i class="fa-solid fa-grip-lines fa-2x text-white"></i></a>
+          </li>
+          <li class="item mx-3">
+            <a class="nav-link active" href="#">ROOMS</a>
+          </li>
+          <li class="item mx-3">
+            <a class="nav-link active" href="#">SPECIALS</a>
+          </li>
+          <li class="item mx-3">
+            <a class="nav-link active" href="#">GALLERY</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a href=""
+          ><img src="images/pier-south-resort-logo-white.svg" class="brandlogo"
+        /></a>
+      </div>
+      <div>
+        <ul class="navba d-flex">
+          <li class="item">
+            <a class="nav-link active" href="#">(619) 621-5900</a>
+          </li>
+          <li class="item mx-5">
+            <a class="nav-link active" href="#">
+              <button class="btn" type="button">BOOK YOUT STAY</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!---->
+    <div class="bestrate">
+      <button type="button" class="btn btn-labeled btn-light">
+        <i class="fa fa-star"></i>
+        BEST RATE GUARANTEE
+        <span class="ms-3">$215.00</span>
+      </button>
+    </div>
+    <!---->
+    <div class="center_data">
+      <span>Recharge & Explore</span>
+      <h3>on the California Coast</h3>
+    </div>
+    <!---->
+
+    <div class="box d-flex">
+      <div class="form-group col-lg-3">
+        <label class="form-text">ARRIVAL</label>
+        <div class="input-group date" id="datepicker">
+          <input
+            type="text"
+            class="form-control border border-primary rounded-0"
+          />
+          <span class="input-group-append">
+            <span
+              class="input-group-text bg-white border border-primary rounded-0"
+            >
+              <i class="fa fa-calendar text-primary"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="form-group mx-3">
+        <label class="form-text">DEPARTURE</label>
+        <div class="input-group date" id="datepicker1">
+          <input
+            type="text"
+            class="form-control border border-primary rounded-0"
+          />
+          <span class="input-group-append">
+            <span
+              class="input-group-text bg-white border border-primary rounded-0"
+            >
+              <i class="fa fa-calendar text-primary"></i>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="form-group mx-3">
+        <label class="form-text">ROOMS</label>
+        <select
+          class="form-control border border-primary rounded-0"
+          id="NumberOfRooms2"
+          name="Rooms"
+        >
+          <option selected="" value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <div class="form-group mx-3">
+        <label class="form-text">ADULTS</label>
+        <select
+          class="form-control border border-primary rounded-0"
+          id="NumberOfRooms2"
+          name="Rooms"
+        >
+          <option selected="" value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <div class="form-group mx-3">
+        <label class="form-text">CHILDREN</label>
+        <select
+          class="form-control border border-primary rounded-0"
+          id="NumberOfRooms2"
+          name="Rooms"
+        >
+          <option selected="" value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-sm btn-primary checkbtn fs-5">
+          CHECK AVAILABILITY
+        </button>
+      </div>
+    </div>
+    <!--banner1-->
+    <div class="banner1">
+      <div class="para">
+        <p class="text">
+          Discover coastal California luxury at Pier South Resort. Our boutique
+          resort in Imperial Beach, CA, is located at the intersection of sand
+          and surf, where the gentle sea breeze meets the comfort and
+          convenience of our ocean-inspired San Diego accommodations.
+          <span class="moreText">
+            Discover coastal California luxury at Pier South Resort. Our
+            boutique resort in Imperial Beach, CA, is located at the
+            intersection of sand and surf, where the gentle sea breeze meets the
+            comfort and convenience of our ocean-inspired San Diego
+            accommodations.
+          </span>
+        </p>
+        <div class="readtext">
+          <button class="read-more-btn">READ MORE</button>
+        </div>
+      </div>
+      <div class="icons">
+        <div class="icon wifi">
+          <div class="tooltip">FREE WIFI</div>
+          <span> <i class="fa-solid fa-wifi"></i></span>
+        </div>
+        <div class="icon welcome">
+          <div class="tooltip">PETS WELCOME</div>
+          <span> <i class="fa fa-paw" aria-hidden="true"></i></span>
+        </div>
+        <div class="icon parking">
+          <div class="tooltip">PARKING</div>
+          <span><i class="fas fa-car" aria-hidden="true"></i></span>
+        </div>
+        <div class="icon phone">
+          <div class="tooltip">PHONE</div>
+          <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+        </div>
+        <div class="icon dining">
+          <div class="tooltip">DINING</div>
+          <span> <i class="fa fa-bell" aria-hidden="true"></i> </span>
+        </div>
+        <div class="icon no">
+          <div class="tooltip">NO SMOKING</div>
+          <span> <i class="fas fa-smoking-ban" aria-hidden="true"></i></span>
+        </div>
+      </div>
+    </div>
+    <!--banner2-->
+    <div class="banner2">
+      <img src="images/sunrise.svg" class="banner2img" alt="" />
+    </div>
+    <!--banner3-->
+    <div class="banner3 d-flex">
+      <div class="rotatetext">
+        <h6>Our Best Offers</h6>
+      </div>
+      <div>
+        <img
+          src="images/piersouthresort-home-specials.jpg"
+          class="banner3img"
+          alt=""
+        />
+      </div>
+    </div>
+    <!--banner4-->
+
+    <div class="banner4-text1 text-center">
+      <h3>Exclusive Specials</h3>
+      <p>
+        Experience our ever-changing selection of specials designed to enhance
+        your stay with us.
+      </p>
+    </div>
+    <div class="banner4-text3">
+      <p class="roun">VIEW OFFERS</p>
+    </div>
+
+    <!--banner5-->
+
+    <div class="row mx-auto my-auto justify-content-center pt-5">
+      <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="col-md-3">
+              <div class="card" style="border: 1px solid rgb(8, 65, 103)">
+                <div class="card-img">
+                  <img
+                    src="images/piersouthresort-home-rooms-accessible-rooms.jpg"
+                    class="img-fluid"
+                  />
+                  <h4>Oceanfront King Executive Corner Suite</h4>
+                  <p>
+                    Indulge in gorgeous panoramic views of the seaside from your
+                    wraparound private balcony in one of our finest suites,
+                    featuring floor-to-ceiling windows for enjoying ocean views
+                    inside.&nbsp;&nbsp;
+                  </p>
+
+                  <p class="roun_1">LERAN MORE</p>
+                </div>
+              </div>
+              <!-- <div class="card-img-overlay">
+                <h4>ACCESSIBLE ROOMS</h4>
+                <p></p>
+              </div> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card" style="border: 1px solid rgb(8, 65, 103)">
+                <div class="card-img">
+                  <img
+                    src="images/piersouthresort-home-rooms-ocean-view-1-bedroom-king-suite.jpg"
+                    class="img-fluid"
+                  />
+                  <h4>Accessible Rooms</h4>
+                  <p>
+                    Our accessible hotel rooms are well-equipped with mobility
+                    and hearing accessibility features for your comfort and
+                    convenience.&nbsp;
+                  </p>
+                  <p class="roun_1 text-center">LERAN MORE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card" style="border: 1px solid rgb(8, 65, 103)">
+                <div class="card-img">
+                  <img
+                    src="images/piersouthresort-home-rooms-oceanfront-king-executive-corner-suite.jpg"
+                    class="img-fluid"
+                  />
+                  <h4>Partial Ocean View King Studio Suite</h4>
+                  <p>
+                    Featuring a separate bedroom, our inviting Partial Ocean
+                    View King Suite offers a king-sized bed with plush bedding,
+                    as well as a private balcony with partial views of the beach
+                    and ocean.
+                  </p>
+                  <p class="roun_1 text-center">LERAN MORE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card" style="border: 1px solid rgb(8, 65, 103)">
+                <div class="card-img">
+                  <img
+                    src="images/piersouthresort-home-rooms-oceanfront-one-bedroom-2-double-suite.jpg"
+                    class="img-fluid"
+                  />
+                  <h4>Oceanfront King Studio Suite</h4>
+                  <p>
+                    Experience stunning ocean views from the comfort of your
+                    private balcony in our Oceanfront King Suite, featuring a
+                    king-sized bed situated in a separate sleeping area.&nbsp;
+                  </p>
+                  <p class="roun_1 text-center">LERAN MORE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card" style="border: 1px solid rgb(8, 65, 103)">
+                <div class="card-img">
+                  <img
+                    src="images/piersouthresort-home-rooms-oceanfront-one-bedroom-2-queen-suite.jpg"
+                    class="img-fluid"
+                  />
+                  <h4>Ocean View 1-Bedroom King Suite</h4>
+                  <p>
+                    Indulge in serene ocean views from the comfort of your
+                    private balcony. This spacious suite features a king-size
+                    bed in the private bedroom that's sure to take all your
+                    fatigue away.&nbsp;
+                  </p>
+                  <p class="roun_1 text-center">LERAN MORE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card" style="border: 1px solid rgb(8, 65, 103)">
+                <div class="card-img">
+                  <img
+                    src="images/piersouthresort-home-rooms-oceanfront-king-suite.jpg"
+                    class="img-fluid"
+                  />
+                  <h4>Oceanfront King Executive Corner Suite</h4>
+                  <p>
+                    Indulge in gorgeous panoramic views of the seaside from your
+                    wraparound private balcony in one of our finest suites,
+                    featuring floor-to-ceiling windows for enjoying ocean views
+                    inside.&nbsp;&nbsp;
+                  </p>
+                  <p class="roun_1 text-center">LERAN MORE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev bg-transparent w-auto"
+          href="#recipeCarousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          class="carousel-control-next bg-transparent w-aut"
+          href="#recipeCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+
+    <!--banner6-->
+    <div class="banner6 pt-5">
+      <div class="banner6_text1">
+        <h1>Explore Southern California</h1>
+      </div>
+      <br />
+      <div class="banner6-text2">
+        <p class="roun2">VIEW ATTRACTIONS</p>
+      </div>
+      <div>
+        <img src="images/mapsmall.png" alt="" width="1258" height="680" />
+      </div>
+    </div>
+    <!--banner7-->
+
+    <div class="home-features-section">
+      <div class="uk-container">
+        <div class="home-features-outer">
+          <div class="home-features-inner desk-ani">
+            <h3>Large Private Patios</h3>
+            <img
+              src="https://www.piersouthresort.com/resourcefiles/home-features-sec/piersouthresort-home-topreasons-large-private-patios.jpg"
+              alt="Full Gourmet Kitchens"
+              width="348"
+              height="157"
+            />
+            <div class="contentfocus description-div" tabindex="0">
+              <p>
+                Step out onto the private patio or balcony of your suite and
+                delight in breathtaking sunset and ocean views.&nbsp;
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="home-features-inner desk-ani">
+            <h3>Beachfront Location</h3>
+            <img
+              src="https://www.piersouthresort.com/resourcefiles/home-features-sec/piersouthresort-home-topreasons-beachfront-location.jpg"
+              alt="In the Heart of Downtown Palm Springs"
+              width="348"
+              height="157"
+            />
+            <div class="contentfocus description-div" tabindex="0">
+              <p>
+                For those who seek the cool ocean breeze and warm California
+                sunshine, our Imperial Beach location simply can't be
+                beaten.&nbsp;
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="home-features-inner desk-ani">
+            <h3>Baja Med Flavors</h3>
+            <img
+              src="https://www.piersouthresort.com/resourcefiles/home-features-sec/piersouthresort-home-topreasons-baja-med-flavors.jpg"
+              alt="Onsite Dining &amp; Poolside Lounge"
+              width="348"
+              height="157"
+            />
+            <div class="contentfocus description-div" tabindex="0">
+              <p>
+                Check out our onsite coastal tavern SEA180°, the premier
+                Imperial Beach restaurant for oceanfront views and innovative
+                California cuisine.&nbsp;
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="home-features-inner desk-ani">
+            <h3>Picturesque Views</h3>
+            <img
+              src="https://www.piersouthresort.com/resourcefiles/home-features-sec/piersouthresort-home-topreasons-picturesque-views.jpg"
+              alt="Pet-Friendly Accommodations"
+              width="348"
+              height="157"
+            />
+            <div class="contentfocus description-div" tabindex="0">
+              <p>
+                One-of-a-kind panoramic ocean views await you at our pier-side
+                resort near gorgeous San Diego, California.&nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--BANNER8-->
+    <div class="banner8 d-flex">
+      <div>
+        <img
+          src="images/piersouthresort-home-oceanside-events.jpg"
+          width="610px"
+          height="582px"
+        />
+      </div>
+      <div class="banner8_main">
+        <div>
+          <h1>Oceanside Events</h1>
+        </div>
+        <div>
+          <p>
+            Equipped with the latest technology and catering services, our San
+            Diego event spaces are sure to make your gatherings a success.
+          </p>
+        </div>
+        <div class="banner8_text2">
+          <p class="roun4">LEARN MORE</p>
+        </div>
+      </div>
+    </div>
+    <!--banner9-->
+    <div class="banner9">
+      <div class="logo_3">
+        <img src="images/sunrise.svg" width="400px" height="250px" />
+      </div>
+    </div>
+    <div class="banner9_main d-flex">
+      <div>
+        <div class="img1">
+          <img src="images/piersouthresort-home-gallery-1.jpg" />
+        </div>
+      </div>
+      <div>
+        <div class="img2">
+          <img src="images/piersouthresort-home-gallery-2.jpg" alt="" />
+        </div>
+        <div class="img3">
+          <img src="images/piersouthresort-home-gallery-3.jpg" alt="" />
+        </div>
+      </div>
+      <div class="banner9_data">
+        <div class="img4">
+          <img src="images/piersouthresort-home-gallery-4.jpg" alt="" />
+        </div>
+        <div>
+          <h1>Take a Peek</h1>
+        </div>
+        <div>
+          <p class="roun4">VIEW GALLERY</p>
+        </div>
+      </div>
+    </div>
+    <!--banner10-->
+    <footer class="banner10 d-flex">
+      <div>
+        <div class="banner10_main">
+          <div class="banner10_text1">
+            <h3>Stay In The Know</h3>
+          </div>
+          <div class="banner10_text2">
+            <form class="form1 d-flex">
+              <div class="form-group">
+                <label class="form-text1">NAME*</label>
+                <div class="input-group">
+                  <input type="text" class="form-control1" />
+                </div>
+              </div>
+              <div class="form-group mx-3">
+                <label class="form-text1">EMAIL*</label>
+                <div class="input-group">
+                  <input type="text" class="form-control1" />
+                </div>
+              </div>
+              <div class="banner10_text3">
+                <button class="btn">SIGN UP</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="banner10_main1">
+          <div class="text10_1">
+            <a href="" class="text10_1_1">
+              800 Seacoast Drive, Imperial Beach, California 91932 <br />
+              Call: +1-619-621-5900 | Email: info@piersouthresort.com</a
+            >
+          </div>
+          <div class="text10_2 mx-5">
+            <a href=""><img src="images/marriott-bonvoy-black.svg" alt="" /></a>
+          </div>
+          <div class="text10_3">
+            <a href=""
+              ><img
+                src="images/autograph-collection-hotels-vector-logo.svg"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="banner10_main2">
+          <ul class="ul1 d-flex">
+            <a href="" class="text-white"><li class="mx-3">Email Offers</li></a>
+            <a href="" class="text-white"><li class="mx-3">Safety</li></a>
+            <a href="" class="text-white"><li class="mx-3">Sitemap</li></a>
+            <a href="" class="text-white"
+              ><li class="mx-3">Marriott Privacy Policy</li></a
+            >
+          </ul>
+          <ul class="ul2 d-flex">
+            <a href="" class="text-white"
+              ><li class="mx-3">Accessibility</li></a
+            >
+            <a href="" class="text-white"><li class="mx-3">Terms of Use</li></a>
+          </ul>
+          <ul class="ul3 d-flex">
+            <a href="" class="text-white"
+              ><li>Do Not Sell My Personal Information</li></a
+            >
+            <a href="" class="text-white"
+              ><li class="mx-3">TRACKING PREFERENCES</li></a
+            >
+          </ul>
+        </div>
+        <div class="banner10_main3">
+          <ul class="ul4 d-flex">
+            <a href="" class="text-white"
+              ><li>
+                <i class="fa-brands fa-facebook-f text-white mx-3 fs-4"></i></li
+            ></a>
+            <a href="" class="text-white"
+              ><li>
+                <i class="fa-brands fa-instagram text-white mx-3 fs-4"></i></li
+            ></a>
+
+            <a href="" class="text-white"
+              ><li>
+                <i
+                  class="fa-brands fa-phabricator text-white mx-3 fs-4"
+                ></i></li
+            ></a>
+          </ul>
+        </div>
+        <div class="mainget">
+          <span class="text_get text-white">Get Notification</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
